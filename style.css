@@ -1,0 +1,187 @@
+.top{
+  height: 150px;
+  margin:auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FDEFEF;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.top {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.left{
+  position: absolute;
+  display:flex;
+  letter-spacing: inherit;
+  bottom: 50px;
+}
+
+.right{
+  position: fixed;
+  display:flex;
+  bottom: 50px;
+}
+
+.home{
+  background-image:url('1.png');
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.homes{
+  color: black;
+  font-size: 1000 px;
+}
+
+.raise{
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: normal;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.text2{
+  position: absolute;
+  top: 50px;
+  font-size: 20px;
+  font-style: oblique;
+  color: black;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.quote{
+  position: absolute;
+  top: 150px;
+  padding-left: 100px;
+  padding-top: 100px;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+.circle{
+  position: absolute;
+  font-weight: bolder;
+  font-size: 50px;
+  color: black;
+  top: 130px;
+  padding-left: 400px;
+}
+
+.dobutton{
+  position: absolute;
+  top: 450px;
+  padding-left: 600px;
+}
+
+.dobutton1{
+  position: relative;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  -webkit-transition-duration: 0.8s; /* Safari */
+  transition-duration: 0.8s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.dobutton1:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.dobutton1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.sip{
+  position: absolute;
+  height: 600px;
+  width: 100%;
+}
+
+.container{
+  text-align: center;
+}
+
+.h{
+  padding-left: 400px;
+  padding-top: 100px;
+}
+
+.c{
+  color: #368B85;
+}
+
+.p{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.square
+{
+  position: relative;
+    margin:0.2px;
+    width:30%;
+    text-align:center;
+    display: inline-block;
+}
+
+.div1{
+  padding-left: 10px;
+}
+
+.carousel slide{
+  padding-top: 2000;
+  padding-left: 400px;
+}
+
+.step{
+  position: relative;
+  width: 100%;
+  height: 800px;
+  padding-top: 600px;
+
+}
+
+.design{
+  font-style:italic;
+  font-weight: bold;
+}
+
+.big{
+  color:black;
+}
